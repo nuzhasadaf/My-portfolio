@@ -1,0 +1,110 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1,p,h2{
+    text-align: center;
+}
+
+body{
+    background-color:#a4cade;
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(139, 20, 20);
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.menu a{
+ 
+    color:white;
+    font-size: 200%;
+    margin-right: 70px;
+    text-decoration:none;
+    
+}
+
+.item{
+    position: relative;
+    margin:50px
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    font-size: large;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.5;
+    scale: 1.5;
+} 
+
+
+.name{
+    font-size: 400%;
+    display: flex;
+    margin-left:300px;
+    margin-top: 400px;
+}
+.eng{
+    font-size: 200%;
+    display: flex;
+    margin-left:350px;
+    
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 120px;
+    margin-right: 300px;
+   
+}
+.image img{
+    border-radius: 45%;
+}
+
+.abc{
+    display: flex;
+    justify-content: space-between;
+}
